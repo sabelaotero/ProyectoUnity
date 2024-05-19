@@ -34,10 +34,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -123,23 +121,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 5060}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5780}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 51622}
+      Script: {instanceID: 7772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,29 +180,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 4360}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5060}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 5780}
     - Class: 114
-      Script: {instanceID: 23266}
+      Script: {instanceID: 6102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -255,47 +253,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 4028}
+      Script: {instanceID: 4030}
     - Class: 114
-      Script: {instanceID: 4518}
+      Script: {instanceID: 4520}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 4782}
+      Script: {instanceID: 4784}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 5060}
     - Class: 114
-      Script: {instanceID: 5070}
+      Script: {instanceID: 5072}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5780}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 6056}
     - Class: 114
-      Script: {instanceID: 6148}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 6644}
+      Script: {instanceID: 6146}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 6640}
     - Class: 114
-      Script: {instanceID: 7662}
+      Script: {instanceID: 7254}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7658}
     - Class: 114
-      Script: {instanceID: 47060}
+      Script: {instanceID: 7786}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -335,6 +333,12 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 577f53ac07eed23cf30b954f0b5da8ca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneManagerController
+  - hash:
+      serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -357,6 +361,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: e62b9afb776fba4c0bc089fe1fdc437c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuInicial
   - hash:
       serializedVersion: 2
       Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
@@ -947,6 +957,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 43841dd0482459dc26722679d4d64ae3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Choque
+  - hash:
+      serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1187,6 +1203,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 05094e5c6a4c57da2542e97a4533ebe1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuFinal
+  - hash:
+      serializedVersion: 2
       Hash: 02a47340661d2ea7c6d30e292cfef403
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1221,27 +1243,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: e62b9afb776fba4c0bc089fe1fdc437c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MenuInicial
-  - hash:
-      serializedVersion: 2
-      Hash: 43841dd0482459dc26722679d4d64ae3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Choque
-  - hash:
-      serializedVersion: 2
-      Hash: 05094e5c6a4c57da2542e97a4533ebe1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MenuFinal
   platform: 19
   scenePathNames:
   - Assets/Scenes/Inicio.unity
   - Assets/Scenes/Juego.unity
   - Assets/Scenes/Final.unity
-  playerPath: C:/Users/sabel/My project/obj/Debug/TempPE/My project.exe
+  playerPath: C:/Users/sabel/ProyectoFinalUnity/My project.exe

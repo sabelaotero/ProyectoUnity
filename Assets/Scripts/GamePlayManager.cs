@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class GamePlayManager : Singleton<GamePlayManager>
 {
     public float tiempo;
+    public ObjetosRecogidos objs;
+    public DBManager dbman;
 
     private void Start()
     {
@@ -21,6 +23,8 @@ public class GamePlayManager : Singleton<GamePlayManager>
         }
         else
         {
+            int punt = objs.numObjetos;
+            dbman.AñadirPuntos(punt);
             SceneManager.LoadScene(2);
         }
 

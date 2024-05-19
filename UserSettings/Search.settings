@@ -8,9 +8,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.310DEAF1" = "animator"
+	"last_search.310DEAF1" = "built in sett"
 	"OpenInspectorPreview.310DEAF1" = "0"
-	"currentGroup.310DEAF1" = "all"
+	"currentGroup.310DEAF1" = "settings"
 	"last_search.310DEAF3" = "h:t:NavMeshSurface #m_AgentTypeID=0"
 	"OpenInspectorPreview.310DEAF3" = "0"
 	"currentGroup.310DEAF3" = "all"
@@ -65,6 +65,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"b"
 	"ani"
 ]
 searchItemFavorites = [
